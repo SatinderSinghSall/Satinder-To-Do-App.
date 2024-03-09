@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html
+{
+  color: #fff;
+  font-size: 62.5%;
+}
+
+body
+{
+  font-family: "Urbanist", sans-serif;
+  background-color: #1b1b1d;
+}
+
+h1
+{
+  font-size: 3.6rem;
+  margin-top: 4.8rem;
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr
+{
+  margin-bottom: 3.2rem;
+}
+
+p,
+li,
+button
+{
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  font-family: "Urbanist", sans-serif;
+  line-height: 1.6;
+}
+
+button
+{
+  background-color: #f5ee62;
+  padding: 0.6rem 2.4rem;
+  border-radius: 10rem;
+  margin-right: 3.6rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  height: 60px;
+  width: 190px;
+
+  &:hover
+  {
+    box-shadow: inset 0 0 0 0.2rem #f5ee62;
+    background-color: transparent;
+    color: #f5ee62;
+  }
+}
+
+.para:hover
+{
+  color: red;
+  cursor: pointer;
+}
+
+input
+{
+  width: 350px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.userInput
+{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn
+{
+  margin-top: 20px;
+}
+
+.ToDoListElements
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.ToDoListElements p
+{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  background-color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.ToDoListElements p:hover
+{
+  background-color: #555;
+}
+
+.ToDoListElements p:first-child
+{
+  margin-bottom: 50px;
+}
+
+.ParaText
+{
+  background-color: #D83F31 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 50%;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    margin-top: 3.2rem;
+  }
+
+  .userInput {
+    margin-top: 20px;
+  }
+
+  input {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .btn {
+    width: 80%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+
+  .ToDoListElements {
+    margin-top: 30px;
+  }
+}
+
+/* Tablets and small desktops (768px - 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 56.25%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 4.8rem;
+  }
+
+  .userInput {
+    margin-top: 30px;
+  }
+
+  input {
+    width: 60%;
+    max-width: 400px;
+  }
+
+  .btn {
+    width: 40%;
+    max-width: 200px;
+    margin-top: 10px;
+  }
+
+  .ToDoListElements {
+    margin-top: 50px;
+  }
+}
+
+/* Large desktops and laptops (1024px and above) */
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 62.5%;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    margin-top: 4.8rem;
+  }
+
+  .userInput {
+    margin-top: 50px;
+  }
+
+  input {
+    width: 350px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .btn {
+    width: 190px;
+    height: 60px;
+    font-size: 1.7rem;
+    margin-top: 20px;
+  }
+
+  .ToDoListElements {
+    margin-top: 50px;
+  }
+}
+
+
